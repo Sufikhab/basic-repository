@@ -1,81 +1,10 @@
-for i in range(5):
+def tri(a):
+  for i in range(a):
     x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*i
-    print(f'{x:^10}')
-for i in range(5):
-    x='*'
-    x=x*(5-i)
-    print(f'{x:^10}')                                
+    x=x*(500-i)
+    print(f'{x:<10}')
+  return x
+p=tri(500)
+print(p)
+
   
